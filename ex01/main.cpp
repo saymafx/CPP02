@@ -6,7 +6,7 @@
 /*   By: tidigov <tidigov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 20:01:46 by tidigov           #+#    #+#             */
-/*   Updated: 2023/03/23 20:03:16 by tidigov          ###   ########.fr       */
+/*   Updated: 2023/03/26 07:47:24 by tidigov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int main( void ) {
     Fixed const b( 10 );
     Fixed const c( 42.42f );
     Fixed const d( b );
-    
+
     a = Fixed( 1234.4321f );
     
     std::cout << "a is " << a << std::endl;
